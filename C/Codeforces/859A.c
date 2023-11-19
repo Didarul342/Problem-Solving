@@ -1,4 +1,5 @@
 #include<stdio.h>
+
 int main()
 {
   int n,a,i,max=0,res=0;
