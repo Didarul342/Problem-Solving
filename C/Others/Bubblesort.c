@@ -13,7 +13,6 @@ void bubble_sort(int a[], size_t size){
 
       }
     }
-
   }
 }
 
