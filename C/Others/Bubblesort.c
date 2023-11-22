@@ -4,18 +4,16 @@
 
 void bubble_sort(int a[], size_t size){
   for(int i = 0; i < size; i++){
-    // bool already_sorted = true;
-    // printf ("%d outer loop\n", i);
+
     for(int j = 0; j < size - i - 1; j++){
       if(a[j] > a[j + 1]){
         int temp = a[j];
         a[j] = a[j + 1];
         a[j + 1] = temp;
-        //  already_sorted = false;
+
       }
     }
 
-    // if (already_sorted) return;
   }
 }
 
@@ -49,9 +47,6 @@ int main(){
   bubble_sort(arr, size);
   print_array(arr, size);
   
-  // assert(array_equal(arr, sorted, size));
-  // assert(array_equal(sorted,  sorted,  size));
-
   return 0;
 }
 B
