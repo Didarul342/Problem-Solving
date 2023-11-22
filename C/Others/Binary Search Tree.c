@@ -1,7 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
 
-
 struct tnode
 {
     int data;
